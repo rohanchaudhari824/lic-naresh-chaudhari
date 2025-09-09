@@ -1,0 +1,225 @@
+
+-                <img src="assets/lic-logo.svg" alt="LIC" class="brand-logo" onerror="this.style.display='none'">
++                <img src="assets/lic.png" alt="LIC" class="brand-logo" onerror="this.style.display='none'">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        (function(){
+            var theme=localStorage.getItem('theme');
+            if(theme==='dark') document.documentElement.classList.add('dark');
+        })();
+    </script>
+    <style>
+        /* Fallback minimal styles if CSS fails to load */
+        body{font-family:Inter,system-ui,Arial,sans-serif;margin:0}
+    </style>
+    <noscript>
+        <style>.nav-toggle{display:none}</style>
+    </noscript>
+    <!-- Note: This is the root version. A full copy also exists in lic-agent-site/ -->
+    
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <div class="brand">
+                <img src="assets/lic.png" alt="LIC" class="brand-logo" onerror="this.style.display='none'">
+                <span class="brand-name">LIC Agent</span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#plans">Plans</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" aria-label="Toggle theme" id="themeToggle">🌙</button>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Your Trusted LIC Agent</h1>
+                    <p><strong>Naresh Chaudhari</strong> — IRDA Certified LIC Agent (Code: IRDA/LIC/123456789)</p>
+                    <p>Secure your family’s future with the right life insurance and investment plans. Get unbiased advice, quick policy issuance, and claim assistance.</p>
+                    <div class="cta-group">
+                        <a href="https://wa.me/918141278052?text=Hi%2C%20I%20need%20LIC%20plan%20advice" class="btn btn-primary" target="_blank" rel="noopener">WhatsApp Now</a>
+                        <a href="tel:+918141278052" class="btn btn-outline">Call Now</a>
+                    </div>
+                    <div class="trust-badges">
+                        <span>IRDA Certified</span>
+                        <span>10+ Years Experience</span>
+                        <span>1000+ Happy Clients</span>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img src="assets/hero.jpg" alt="Family insurance" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <section class="plans" id="plans">
+            <div class="container">
+                <h2>Popular LIC Plans</h2>
+                <div class="grid cards">
+                    <article class="card">
+                        <h3>Jeevan Anand</h3>
+                        <p>Combination of protection and savings with lifelong cover and maturity benefits.</p>
+                        <ul>
+                            <li>Life cover + bonus</li>
+                            <li>Loan facility</li>
+                            <li>Tax benefits</li>
+                        </ul>
+                        <a href="#contact" class="link">Get details →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Jeevan Umang</h3>
+                        <p>Whole life income plan offering survival benefits and life-long protection.</p>
+                        <ul>
+                            <li>Annual income post premium term</li>
+                            <li>Participating plan</li>
+                            <li>Tax benefits</li>
+                        </ul>
+                        <a href="#contact" class="link">Get details →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Jeevan Labh</h3>
+                        <p>Limited premium endowment plan with attractive returns and protection.</p>
+                        <ul>
+                            <li>Short premium payment term</li>
+                            <li>Maturity + bonus</li>
+                            <li>Tax benefits</li>
+                        </ul>
+                        <a href="#contact" class="link">Get details →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="grid services-grid">
+                    <div class="service">
+                        <h3>Free Consultation</h3>
+                        <p>Personalized plan comparison based on your goals, risk profile, and budget.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Policy Issuance</h3>
+                        <p>End-to-end assistance from documentation to policy activation.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Claim Support</h3>
+                        <p>Dedicated support to ensure quick and hassle-free claim settlement.</p>
+                    </div>
+                    <div class="service">
+                        <h3>After-Sales Service</h3>
+                        <p>Premium reminders, nominations, loan assistance, and policy servicing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container about-inner">
+                <div>
+                    <h2>About Me</h2>
+                    <p>I am an IRDA-certified LIC agent with over a decade of experience helping individuals and families choose the right protection and investment plans. I believe in honest advice and long-term relationships.</p>
+
+                    <div class="agent-details" style="margin:12px 0 0;">
+                        <div style="display:grid;grid-template-columns:160px 1fr;gap:6px 12px;max-width:560px;">
+                            <div><strong>Name</strong></div>
+                            <div>Naresh Chaudhari</div>
+                            <div><strong>IRDA Code</strong></div>
+                            <div>IRDA/LIC/123456789</div>
+                            <div><strong>License No.</strong></div>
+                            <div>LIC-AGT-567890</div>
+                            <div><strong>Experience</strong></div>
+                            <div>10+ years</div>
+                            <div><strong>Languages</strong></div>
+                            <div>English, Hindi</div>
+                            <div><strong>Location</strong></div>
+                            <div>Bhestan, Surat</div>
+                            <div><strong>Working Hours</strong></div>
+                            <div>Mon–Sat, 10:00 AM – 7:00 PM</div>
+                        </div>
+                    </div>
+
+                    <ul class="highlights">
+                        <li>Expert in term, endowment, and pension plans</li>
+                        <li>Transparent comparison and zero hidden charges</li>
+                        <li>Available online and in-person</li>
+                    </ul>
+                </div>
+                <img src="agent.png" alt= "agent"class="about-img" loading="lazy">
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2>What Clients Say</h2>
+                <div class="grid testimonials-grid">
+                    <blockquote class="testimonial">
+                        <p>“Made insurance simple. Great support during claim processing.”</p>
+                        <cite>— Rajesh K.</cite>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <p>“Professional and patient. Helped me pick the best plan for my family.”</p>
+                        <cite>— Neha S.</cite>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <p>“Trustworthy advisor. Highly recommended for LIC policies.”</p>
+                        <cite>— Anil P.</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact-inner">
+                <div>
+                    <h2>Contact</h2>
+                    <p>Reach out for a free consultation or policy review.</p>
+                    <ul class="contact-list">
+                        <li><strong>Agent:</strong> Naresh Chaudhari</li>
+                        <li><strong>IRDA Code:</strong> IRDA/LIC/123456789</li>
+                        <li><strong>License No.:</strong> LIC-AGT-567890</li>
+                        <li><strong>Phone:</strong> <a href="tel:+918141278052">+91 81412 78052</a></li>
+                        <li><strong>WhatsApp:</strong> <a href="https://wa.me/918141278052" target="_blank" rel="noopener">Chat now</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:nareshchaudhari22470@gmail.com">nareshchaudhari22470@gmail.com</a></li>
+                        <li><strong>Address:</strong> Bhestan, Surat</li>
+                        <li><strong>Working Hours:</strong> Mon–Sat, 10:00 AM – 7:00 PM</li>
+                    </ul>
+                </div>
+                <form class="contact-form" name="contact-form" netlify>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="tel" name="phone" placeholder="Phone number" required>
+                    <textarea name="message" rows="4" placeholder="How can I help?" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> LIC Agent. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#top">Back to top</a>
+                <a href="https://www.licindia.in/" target="_blank" rel="noopener">LIC Official</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918141278052" class="fab-cta" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">💬</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
